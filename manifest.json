@@ -1,0 +1,8 @@
+{
+    "name": "BilibiliReplyExtension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        { "matches": ["https://www.bilibili.com/video/*"],  "js": ["index.js"] }
+    ]
+}
